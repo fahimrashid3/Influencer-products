@@ -27,7 +27,7 @@ font-family: 'Work Sans', sans-serif;
     border-radius: .5rem;
     padding: 1rem 2rem;
   }
-
+ 
   /* nav section related css style */
 
   
@@ -85,8 +85,53 @@ background-image:url('../images/background.svg');
   gap: 6rem;
   margin-top: 3rem;
 }
+/* collection section start here */
+
+.collection-title{
+  text-align: center;
+  margin-top: 8rem;
+}
+
+/* card */
+.price{
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.cart-description{
+  width: 18rem;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.card{
+  background: #f0f0f0;
+  padding: 2rem;
+  width: 19rem;
+
+}
 
 
+.card-container{
+  margin:0 23rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  border: 2px solid var(--text-color) ;
+
+}
+
+.see-more-container{
+  text-align: right;
+  margin-right: 22.5rem;
+  margin-top: 2rem;
+}
+
+.see-more{
+  color: var(--btn-color);
+  align-items: center;
+  
+}
 
 
 
