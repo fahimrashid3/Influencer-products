@@ -113,11 +113,11 @@ background-image:url('../images/background.svg');
 
 
 .card-container{
-  margin:0 23rem;
+  margin:0 22rem;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 1rem;
-  border: 2px solid var(--text-color) ;
+  
 
 }
 
@@ -131,6 +131,13 @@ background-image:url('../images/background.svg');
   color: var(--btn-color);
   align-items: center;
   
+}
+/* shop details section */
+
+.shop-details{
+  display: flex;
+  margin: 10rem 20rem;
+  gap: 5rem;
 }
 
 
@@ -189,8 +196,23 @@ background-image:url('../images/background.svg');
     }
     
   
+/* product section related css */
 
+.card-container{
+  margin:0 2rem;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 1rem;
+  justify-content: center;
+  padding-left: 3rem;
 
+}
+.shop-details{
+  flex-direction: column;
+  margin: 10rem 5rem;
+  gap: 0rem;
+  text-align: center;
+}
 
 
 
@@ -250,8 +272,21 @@ background-image:url('../images/background.svg');
 
     }
 
+    .card-container{
+      margin:0 2rem;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 1rem;
+    
+    }
 
+/* shop details section */
 
+.shop-details{
+  display: flex;
+  margin: 10rem 5rem;
+  gap: 5rem;
+}
 
 
 
