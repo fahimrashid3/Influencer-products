@@ -77,6 +77,14 @@ font-family: 'Work Sans', sans-serif;
 background-image:url('../images/background.svg'); 
 }
 
+/* sponsor related css style */
+.sponsor-logo{
+  display: flex;
+  padding: 4rem 10rem;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 3rem;
+}
 
 
 
@@ -125,7 +133,16 @@ background-image:url('../images/background.svg');
     .banner-title{
       width: 35rem;
     }
+    /* sponsor related css */
 
+    .sponsor-logo{
+      display: grid;
+      grid-template-columns: repeat(4 ,1fr);
+      padding: 2rem 2rem;
+      gap: 1rem;
+      margin-top: 5rem;
+    }
+    
   
 
 
@@ -175,6 +192,19 @@ background-image:url('../images/background.svg');
       font-size: 3rem;
       width: 35rem;
    }
+     /* sponsor related css */
+
+     .sponsor-logo{
+
+      display: flex;
+      padding: 2rem 4rem;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 3rem;
+
+
+    }
+
 
 
 
