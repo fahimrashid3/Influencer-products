@@ -1,0 +1,190 @@
+/* work sans font setup */
+*{
+font-family: 'Work Sans', sans-serif;
+}
+:root {
+    --dark-color: #18191F;
+    --text-color: #3A3A3A;
+    --btn-color: #E02C6D;
+    --white-color: #FFFFFF;
+  
+  }
+  .title{
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--text-color);
+  }
+
+  .text-primary{
+    color: var(--text-color);
+    font-weight: 500;
+    max-width: 45rem;
+  }
+  .bnt-primary{
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+  }
+
+  /* nav section related css style */
+
+  
+  .nav-div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 10rem;
+  }
+
+  .item-list{
+    display: flex;
+    gap: 2rem;
+ }
+
+ nav a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 1.5rem;
+ }
+
+ .item-list>li{
+    list-style: none;
+ }
+
+ /* main section css style star here */
+
+
+ /* banner related style */
+ .banner{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    justify-content: space-between;
+    padding: 0 10rem;
+ }
+
+ .banner-title{
+    font-weight: 700;
+    font-size: 3rem;
+    max-width: 45rem;
+ }
+
+ .main-camera{
+background-image:url('../images/background.svg'); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:576px) {
+  /* nav related css style */
+    .nav-div{
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+    .item-list{
+        gap: 1rem;
+     }
+
+     /* banner related css style */
+    .banner{
+      flex-direction: column;
+      gap: 0;
+      padding: 0 3rem;
+      text-align: center;
+    }
+    .main-camera{
+      margin-top: 4rem;
+    }
+    .banner-title{
+      width: 35rem;
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ }
+
+
+
+
+
+
+
+ @media screen and(min-width:576px) and (max-width:992px) {
+     /* nav related css style */
+    .nav-div{
+        display: flex;
+        padding: 2rem 1rem;
+      }
+    
+    .item-list{
+        gap: 1rem;
+    }
+
+    
+    /* banner related style */
+    .banner{
+
+      gap: 5rem;
+      justify-content: space-between;
+      padding: 0 2rem;
+      gap: 2rem;
+    }
+
+    .banner-title{
+      font-weight: 700;
+      font-size: 3rem;
+      width: 35rem;
+   }
+
+
+
+
+
+
+
+
+
+
+
+    
+ }
