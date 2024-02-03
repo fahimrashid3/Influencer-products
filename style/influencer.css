@@ -3,7 +3,7 @@
 font-family: 'Work Sans', sans-serif;
 }
 :root {
-    --dark-color: #18191F;
+    --dark-color: #0a0826;
     --text-color: #3A3A3A;
     --btn-color: #E02C6D;
     --white-color: #FFFFFF;
@@ -140,11 +140,30 @@ background-image:url('../images/background.svg');
   gap: 5rem;
 }
 
+/* footer section */
+
+.footer{
+  background-color: var(--dark-color);
+padding: 10rem ;
+  
+}
+.footer-title{
+  color: var(--white-color);
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+.coppy-right{
+  color: var(--white-color);
+  text-align: center;
+}
 
 
-
-
-
+.social-media-img{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
 
 
 
@@ -215,8 +234,12 @@ background-image:url('../images/background.svg');
 }
 
 
-
-
+/* footer section style */
+.footer{
+  background-color: var(--dark-color);
+padding: 5rem 0;
+  
+}
 
 
 
