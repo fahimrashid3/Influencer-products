@@ -26,6 +26,8 @@ font-family: 'Work Sans', sans-serif;
     border: none;
     border-radius: .5rem;
     padding: 1rem 2rem;
+    cursor: pointer;
+    
   }
  
   /* nav section related css style */
@@ -84,6 +86,7 @@ background-image:url('../images/background.svg');
   justify-content: center;
   gap: 6rem;
   margin-top: 3rem;
+  cursor: pointer;
 }
 /* collection section start here */
 
@@ -108,7 +111,7 @@ background-image:url('../images/background.svg');
   background: #f0f0f0;
   padding: 2rem;
   width: 19rem;
-
+  cursor: pointer;
 }
 
 
@@ -130,7 +133,7 @@ background-image:url('../images/background.svg');
 .see-more{
   color: var(--btn-color);
   align-items: center;
-  
+  cursor: pointer;
 }
 /* shop details section */
 
